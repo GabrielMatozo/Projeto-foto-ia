@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+    background-color: #2d2d2d;
+    color: #FFF;
+}
+
+/*
+A medida vh é igual a 1/100 da altura da viewport. 
+Então, por exemplo, se a altura do navegador é 900px, 1vh equivale a 9px
+*/
+
+.App{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    height: 90vh; /* Viewport Heigh */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    padding: 12px 24px;
+    background: #5162ff;
+    border: 1px solid #5162ff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+button:hover {
+    background-color: #da7d00; 
+    color:#5162ff;
+  }
+
+img {
+    border-radius: 10px;
+    width: 230px
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+}
+
+select, label {
+        appearance: none;
+        font-size: 20px;
+        background-color: transparent;
+        padding: 10px 22px;
+        margin: 10px;
+      }
