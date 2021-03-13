@@ -1,6 +1,6 @@
 ## AI Photo Generator
 
-Projeto em ReactJs que gera de forma randômica fotos de pessoas baseadas na IA do generated.photos.
+Projeto em ReactJs que gera de forma randômica fotos de pessoas baseadas na IA do generated.photos, feito em aula de programação Web.
 
 ### Procedimentos Iniciais
 
